@@ -1,0 +1,165 @@
+.site-record-list {
+    font-family: Arial, sans-serif;
+    margin: 25px;
+  }
+  
+  .site-record-list h2 {
+    margin-bottom: 20px;
+  }
+  
+  .site-record-list button {
+    margin-right: 10px;
+    padding: 6px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    color: #333;
+    transition: background-color 0.2s;
+  }
+  
+  .site-record-list button:hover {
+    background-color: #e8e8e8;
+  }
+  
+  .site-record-list table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .site-record-list th,
+  .site-record-list td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .site-record-list th {
+    background-color: #f2f2f2;
+  }
+  
+  .site-record-list th input,
+  .site-record-list th select {
+    margin-left: 10px;
+  }
+  
+  .site-record-list th span {
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .site-record-list tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .site-record-list tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .form-container {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-container input,
+  .form-container select,
+  .form-container textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    color: #333;
+    transition: background-color 0.2s;
+  }
+  
+  .form-container button:hover {
+    background-color: #e8e8e8;
+  }
+
+
+  .form-container button.add,
+  .form-container button.save {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  
+  .form-container button.add:hover,
+  .form-container button.save:hover {
+    background-color: #45A049;
+  }
+  
+  .form-container button.cancel {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .form-container button.cancel:hover {
+    background-color: #da190b;
+  }
+  
+  .site-record-list button.edit {
+    background-color: #ff9800;
+    color: #fff;
+  }
+  
+  .site-record-list button.edit:hover {
+    background-color: #e68a00;
+  }
+  
+  .site-record-list button.delete {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .site-record-list button.delete:hover {
+    background-color: #da190b;
+  }
+  
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .pagination button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 16px;
+    margin: 0 4px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .pagination button:hover {
+    background-color: #45a049;
+  }
+  
+  .pagination .disabled {
+    cursor: not-allowed;
+    background-color: #999;
+  }

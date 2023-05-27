@@ -1,0 +1,33 @@
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Built files
+/build
+/dist
+
+# Logs and debugging
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.idea
+.vscode
+*.iml
+
+# Miscellaneous
+.DS_Store
+*.swp
+*.bak
+*.cache
+*.log
